@@ -120,10 +120,16 @@ font-family: 'Bad Script', cursive;
       margin-left: 0px; 
       
     }
+    .btn-del {
+    margin-left: 0px;
+    }
+
   }
   @media (max-width:320px) {
     .header {
       margin-left: 0px; 
-      
-    }
+  }
+    .btn-del {
+      margin-left: 0px;
+  }
   }
