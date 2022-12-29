@@ -76,14 +76,14 @@ return (
                     <p>Цена: {price} рублей</p>
                 </div>
                 <div className='container-text'>
-                    <button className='remove' onClick={() => removeDish (id)}>Remove</button>
+                    <button className='remove' onClick={() => removeDish (id)}>Удалить</button>
                 </div>
         </div>
       </div>
   )  
    
         <div className='container'>
-          <button className='btn-del' onClick={() => setDish ([])}> Delete all</button>
+          <button className='btn-del' onClick={() => setDish ([])}>Очистить все</button>
         </div>
   </div>
 
